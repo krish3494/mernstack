@@ -1,0 +1,12 @@
+cascading style sheet
+
+css syntax
+    
+    element
+    {
+        property:value;
+    }
+
+1.inline css
+2.internal css
+3.external css

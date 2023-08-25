@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+          div{
+            height: 100px;
+            width: 100px;
+            position: relative;
+            border-radius: 50%;
+            background-color: rgb(220, 13, 13);
+            animation-name: krishnan;
+            animation-duration: 6s;
+            animation-delay: 0s;
+            animation-timing-function: ease-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse                   ;
+        }
+
+        @keyframes krishnan
+        {
+            0%{
+                top: 0px;
+                left: 0px;
+            }
+            50%{
+                top: 0px;
+                left: 150px;
+            }
+            75%{
+                left: 150px;
+                top: 200px;
+                background-color: wheat;
+            }
+            100%{
+                top: 0px;
+                left: 0px;
+            
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

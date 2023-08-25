@@ -1,0 +1,69 @@
+
+
+#div1{
+    border: 1px solid;
+    width: 450px;
+    height: 600px;
+    margin-left: 370px;
+     margin-top: 170px;
+}
+
+
+#p ,#l ,#f{
+    color: rgb(62, 235, 62);
+    font-size:50px;
+    
+}
+
+h2{
+    font-family:'Times New Roman', Times, serif;
+    word-spacing: 30px;
+    letter-spacing: 5px;
+}
+
+#login{
+    background-color: rgb(53, 225, 53);
+
+    padding-left:350px;
+    position: relative;
+    width: 100px;
+    padding-bottom: 10px;
+    /* margin-left: 25px; */
+}
+
+#login:active{
+    background-color: rgb(18, 80, 18);
+}
+
+#email{
+    padding-left:50px;
+    position: relative;
+    width: 300px;
+    padding-bottom: 10px;
+    margin-left: 25px;
+}
+
+#password{
+    padding-left:200px;
+    position: relative;
+    width: 160px;
+    padding-bottom: 10px;
+    margin-left: 25px;
+}
+
+
+ #remember {
+
+    margin-left: 50px;
+    margin-top: -10px;
+    font-size: larger;
+    color: rgb(167, 120, 56);
+} 
+
+ body{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPKPiCQGyTDgloT782yCOEn1gAQDmmW0oc6nU4TB8B-ylcCE2Mciqr9O_Ci59H6Hlr5nYHnwZNq9Q&usqp=CAU&ec=48665699) ;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ }

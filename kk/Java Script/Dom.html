@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body>
+<!--     
+    <p id="para1">
+
+    </p> -->
+    <p id="para2">
+
+    </p>
+    <h1 id="heading"></h1>
+    <ul id="ul0">
+
+    </ul>
+    <ul id="ul1">
+
+    </ul>
+
+    <span id="btn"></span> <br>
+    <button onclick="h()">CLick</button>
+
+    <h1 id="he"></h1>
+
+    <button id="button">CHANGE</button>
+    <script>
+        // const para1=document.getElementById("para1");
+        // para1.innerHTML="hai ths is siva"
+
+        const para2=document.getElementById("para2");
+        para2.innerHTML="hello WelCome"
+
+
+        const head=document.getElementById('heading');
+        head.textContent="WeLcoMe";
+        head.style.backgroundColor="wheat";
+
+        // const list=document.querySelector('ul');
+
+        // list.innerText="apple"
+
+        const li=document.querySelectorAll('ul');
+        li[0].innerHTML='hai'
+        li[0].style.textAlign="center"
+        li[1].innerHTML='hai'
+
+        const h=()=>{
+            document.getElementById('btn').innerHTML="this is btn clicked para"
+        }
+
+    let  doc=document.getElementById('button')
+
+    doc.addEventListener('mouseout',function(){
+        // console.log('hai');
+        document.getElementById('he').innerHTML="hai"
+    })
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+
+        a{
+            text-decoration: none;
+        }
+        body{
+            background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Google_logo_%282010-2013%29.svg/811px-Google_logo_%282010-2013%29.svg.png) no-repeat fixed;
+            background-size:900px;
+            background-position:190px;
+            border: double blue;
+            border-width: 0.3rem;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }

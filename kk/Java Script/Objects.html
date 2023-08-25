@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> objects</title>
+</head>
+<body>
+    <script>
+
+        let a=[[1,2],['a','b'],[true,false]]
+        console.log(a[1][1]);
+
+        //object
+
+        let krishnan=[
+        {
+            name:'krishnan',
+            age:22,
+            family:{fatherName:'moorthi',
+            address:'erode',
+            motherName:'krishnaveni'}
+        }
+        ]
+        // console.log(krishnan.address,krishnan.name);
+        // console.log(krishnan.family.motherName);
+        //  console.log(krishnan);
+
+        for (const i of krishnan) {
+            console.log(i.family);
+        }
+
+        krishnan.forEach(element=>{
+            console.log(element);
+        })
+
+        let id=[
+            {
+                name:'naruto Uzumaki',
+                age:'30',
+                family:{FathersName:'minato namikaze',
+                        mothersName:'kushina uzumaki',
+                        GodFather:'Jiraiya'},
+                childrens:{SonName:'Boruto Uzumaki',
+                            DaughtersName:'Himawari Uzumaki' },
+                address:'The Leaf Village',
+                
+            }
+        ]
+
+        for (const i of id) {
+            console.log(i);
+        }
+
+        id.forEach=(element=>{
+            console.log(element);
+        })
+
+    </script>
+</body>
+</html>

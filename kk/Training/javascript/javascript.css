@@ -1,0 +1,87 @@
+
+
+    
+        #but:active{
+
+         background-color: rgb(35, 120, 218);  
+        }
+        #log:active{
+
+            background-color:rgb(35, 120, 218);
+        }
+        a{
+            margin-left:90px
+        }
+
+        #but{
+
+            background-color: rgb(95, 165, 208);
+        }
+
+        #log{
+
+            margin-left: 60px;
+            background-color: rgb(95, 165, 208);
+        }
+
+        
+
+        .ex1{
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 15px;
+            /* border: 2px solid rgb(185, 191, 193); */
+            border-radius: 15px;
+            /* background-color: rgb(185, 191, 193); */
+            width: 690px;
+            height: 760px;
+            margin-left: 350px;
+            margin-top: 50px;
+            font-size: 15px;
+            opacity: 100%;
+        }
+
+        #form{
+
+            margin-right: 100px;
+          margin-top: 80px;
+        }
+
+
+        #form1{
+
+            margin-top: 80px;
+            margin-top: 200px;
+        }
+
+       /* h3{
+
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(23, 24, 33);
+        margin-left:250px;
+        font-size:20px;
+       } */
+    
+       /* #sample,#div1{
+        
+        border: 5px solid rgb(12, 12, 11);
+       
+       }  */
+
+       span{
+
+        margin-top: 690px;
+       color: rgb(95, 165, 208);
+       
+       }
+
+    #body 
+    {
+        background-image:url(https://images.unsplash.com/photo-1506104489822-562ca25152fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8NGslMjBuYXR1cmV8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+

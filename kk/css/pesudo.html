@@ -1,0 +1,73 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:link{
+            color: white;
+            background-color: black;
+        }
+        a:visited{
+            color: black;
+            background-color: white;
+        }
+        a:hover{
+            color: aqua;
+            text-decoration: line-through;
+        }
+        a:active{
+            background-color: red;
+        }
+        p::first-letter{
+            color: aqua;
+            font-weight: 900;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: line-through;
+        }
+       p::first-line{
+        color: blue;
+       }
+
+       /* p::after */
+       p::before{
+        content: "hai this is para";
+        color: red;
+        background-color: wheat;
+       }
+       p::after{
+        content:the para is almost finished;
+        color: black;
+       }
+
+       p::selection{
+        background-color: black;
+        color: rgb(226, 224, 220);
+        text-decoration: underline;
+       }
+
+       input:focus{
+        outline: none;
+        border-color: red;
+        border-radius: 20px;
+        background-color: bisque;
+       }
+
+    </style>
+</head>
+<body>
+    <a href="https://www.techtarget.com/whatis/definition/robotics#:~:text=Robotics%20is%20a%20branch%20of,on%20a%20number%20of%20forms.">HOME</a>
+
+    <a href="https://en.wikipedia.org/wiki/Robotics">ABOUT US</a>
+    <a href="https://builtin.com/robotics">exit</a>
+    <a href="https://www.britannica.com/technology/robotics">Confirm</a>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos unde dolor quas porro debitis possimus sed nihil, est quis doloribus velit aspernatur mollitia molestiae fugit repudiandae culpa repellat soluta nam amet rerum tempora ratione nobis cum recusandae. Consequuntur voluptatem fugit sit est quis voluptate voluptatum enim accusamus inventore vero excepturi odit, ipsam quidem illo? Sunt illum suscipit architecto aut minima in, fugiat rem accusantium hic debitis omnis tempore impedit dolorem autem, libero qui reiciendis rerum natus praesentium ex tempora nisi. Fuga, repellendus aliquam necessitatibus iste ad libero consectetur tempora doloremque iure hic modi corporis inventore laudantium itaque! Nemo, recusandae deleniti.
+    </p>
+
+    <input type="text">
+</body>
+</html>
